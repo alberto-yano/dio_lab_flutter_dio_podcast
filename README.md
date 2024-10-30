@@ -1,54 +1,16 @@
-## LIVE CODING - FLUTTER CRIAÇÃO DA UI PODCAST DIO
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:030737,60:2426aa&text=DIO%20Lab%20Podcast&reversal=false&section=header&textBg=false&animation=fadeIn&fontColor=f8fafc&fontSize=50">
 
+# :question: Sobre
 
-Muito se tem falado de PodCast e do potencial que essa ferramenta tem em levar informação aos diversos usuários. Os podcasts permitem que o público ouça passivamente o conteúdo enquanto realiza outras atividades. Bem, isso significa que o público pode aprender sobre seus serviços e produtos sem precisar interromper o que está fazendo ou enquanto realiza tarefas diárias. Nesse sentido, iremos criar uma UI em flutter do PodCast Dio que hoje é apresentado no youtube, mas que poderá tornar-se um app futuramente. O objetivo é compreender sobre layout, recursos do flutter para criação de widgets, cards, Bottom navigation, modelo de um player de áudio. Essas são algumas das questões que serão abordadas pelo Expert Instructor João Paulo Miranda Matias nesta Live Coding.
+Esse projeto é um exercício da aula da **DIO "Live Coding - Flutter Criação da UI Podcast DIO"** onde o código fonte do projeto original se encontra neste [link]([https://github.com/joaopaulomirandamatias/live_coding_dio_podcast).
 
+O projeto original foi feito em Abril de 2022. Farei utilizando Flutter versão 3.24.4, e utilizarei algumas bibliotecas de mercado, separando as classes e ao invés de tocar audios apresentarei a lista de vídeos da DIO dinamicamente de a cordo com a lista disponibilizada por eles, somente as categorias estão hardcode. Não será implementada a navegação do BottonNavigationBar e nem o PodCastPage.
 
-<div style="display:flex; justify-content:center;" >
- <figure>
- <img src=".github/2.jpeg" alt="Podcast Dio" height="490" width="250">
- <figcaption>Fig.1 - HomePage do Podcast Dio</figcaption>
- </figure>
- <figure>
- <img src=".github/1.jpeg" alt="Podcast Dio" height="490" width="250" style="margin-right:50px">
- <figcaption>Fig.2 - PodCastPage </figcaption>
- </figure>
- 
-</div>
+# Bibliotecas
 
-
-#### INDICAÇÃO DE LEITURA
-
-##### Flutter
-<div style="display:flex; justify-content:center;" >
- <a href="https://amzn.to/3mA1TnQ" target="_blank">
- <img src=".github/iniciando_flutter.jpg" alt="Iniciando com Flutter Framework" height="230" width="150"> </a>
-
- <a href="https://amzn.to/398Pm7P" target="_blank">
- <img src=".github/aprofundando.jpg" alt="Aprofundando em Flutter" height="230" width="150"> </a>
-</div>
-
-##### Dart
-<div style="display:flex; justify-content:center;" >
- <a href="https://amzn.to/3xCqPS3" target="_blank">
- <img src=".github/dart1.jpg" alt="O guia de Dart" height="230" width="150"> </a>
-
-</div>
-<div><p>OBS: Link afiliado ao Amazon.</p></div>
-
-
-#### ARTIGOS RELACIONADOS
-[Roadmap Flutter](http://joaopaulomirandamatias.com/portifolio/index.php?class=ArticleView&method=onView&id=1)
-
-#### :mailbox: How to reach me:  
-[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/joaopaulomirandamatias/)
-
-#### 📺: My channel:
-[<img src="https://img.shields.io/youtube/channel/subscribers/UCCadgwkvHUnS5e10XfOvLCg?style=social" />](https://www.youtube.com/channel/UCCadgwkvHUnS5e10XfOvLCg)
-
-![](https://komarev.com/ghpvc/?username=joaopaulomirandamatias&color=green)
-
-
-
-
-[Digital Inovation One!](https://web.dio.me/)
+- [flutter_modular: ^6.3.4](https://modular.flutterando.com.br/docs/intro)
+- [flutter_triple: ^3.0.0](https://triple.flutterando.com.br/)
+- [flutter_svg: ^2.0.10+1](https://pub.dev/packages/flutter_svg)
+- [dio: ^5.7.0](https://github.com/cfug/dio)
+- [xml2json: ^6.2.5](https://github.com/shamblett/xml2json)
+- [youtube_player_flutter: ^9.1.1](https://github.com/sarbagyastha/youtube_player_flutter/tree/main/packages/youtube_player_flutter)
